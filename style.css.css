@@ -1,0 +1,237 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1532px;
+    margin: 0 auto;
+}
+/*------header начало-------*/
+.background_menu{
+    background-color: rgb(0, 0, 0);
+}
+.menu{
+    display: flex;
+}
+.logo{
+    background:url('img/logo.png') no-repeat;
+    margin: 35px 96px 35px 9px;
+    width: 141px;
+    height: 27px;
+}
+.link{
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    font-family:Montserrat ;
+    gap: 35px;
+    display: flex;
+    color:#FFFFFF;
+    opacity: 0.7;
+}
+header .catalog{
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.back_call{
+    color: white;
+    border: 2px solid rgba(255, 214, 146, 1);
+    border-radius: 60px ;
+    background: none;
+    padding:21px 20px 22px 19px;
+    opacity: 0.7;
+  }
+.background{
+    background:url(img/background_header.png) no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.background .container {
+    background: url("img/ikra.png") 96% 20% no-repeat;
+}
+.text{
+    margin-top: 104px;
+}
+.h1_ikra{
+    display: flex; 
+}
+.background h1{
+   font-family: Montserrat;
+   font-size: 50px;
+   font-weight: 400;
+   line-height: 60px;
+   color: white;   
+}
+.background h1 p:nth-child(2){
+    font-weight: 600;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.background .tittle{
+    display: flex;
+    margin:50px 0 80px 0;
+    font-family: Montserrat;
+    font-size:24px;
+    color: rgba(255, 255, 255, 0.52);  
+}
+.background .button{
+    line-height: 17px;
+    border: 0px;
+    padding: 26px 40px 27px 40px;
+    font-family: Montserrat;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    border-radius: 60px;
+}
+
+.text1{
+    display: block;
+    margin-left: 234.29px;
+    font-family: Montserrat;
+    background: rgba(18, 18, 18, 0.67);
+    border: 1px solid rgba(200, 164, 100, 0.36);
+    border-radius: 40px;
+    padding:30px 50px;
+}
+.text1 .delicacies{
+    font-size:20px;
+    color: white;
+    
+}
+.line{
+    width: 1px;
+    height: 17px;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    opacity: 0.6;
+    transform: rotate(90deg);   
+}
+.text1 .line{
+    margin-top: 9px;
+}
+.text1 .price{
+    display: flex;
+    margin-top: 25px;
+}
+.text .price p:first-child{
+    font-size: 40px;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.text .price p:last-child{
+    padding:4px 0 0 7px ;
+    text-decoration-line: line-through;
+    color: #FFFFFF; 
+    opacity: 0.53;    
+}
+/*------header конец-------*/
+
+/*------main начало-------*/
+
+
+.range{
+    padding-top: 100px;
+    font-family: Montserrat;
+    background: url(img/range.png) no-repeat;
+    background-size: cover;
+    width: 2125px;
+        
+}
+.range h2{
+    margin-left:727px;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    width: 466px;
+    font-size:50px;
+    color: white;
+}
+.range h2 p:last-child{
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.catalog p{
+    width:313px;
+}
+.catalog{
+    margin-top:59px;
+    display: flex;
+    gap:30px;
+    padding-bottom:99px;
+}
+.catalog_1 ,.catalog_2 ,.catalog_3 ,.catalog_4{
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(200, 164, 100, 0.8);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 40px;
+}
+.range .catalog .ikra1{
+    margin: 0  auto;
+    background: url(img/ikra1.png) no-repeat;
+    width: 210px;
+    height: 160px;
+    margin-top: -40px;
+}
+.range .text2{
+    margin:0 60px 59px 55px;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+.text2 .line{
+    margin: 0 auto;
+}
+.range .price1{
+    font-size: 40px;
+    line-height: 49px;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.range .go_section{
+    padding:27px 41px;
+    background: linear-gradient(180deg, #FFD692 23.18%, #F0B45B 107.92%);
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: #242424;
+}  
+.ikra2{
+    background: url(img/ikra2.png) no-repeat;
+    margin: 0  auto;
+    width: 210px;
+    height: 160px;
+    margin-top: -40px;
+}
+.ikra3{
+    background: url(img/ikra3.png) no-repeat;
+    margin: 0  auto;
+    width: 210px;
+    height: 160px;
+    margin-top: -40px;   
+}
+.delivery{
+    background: url(img/background_2.png) no-repeat;
+    width: 1920px;
+}
+.fish{
+    background: url(img/fish.png) no-repeat;
+    width: 324px;
+    height: 536px;
+}
+
+
+
+
+
